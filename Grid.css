@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid-parent {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 75%;
+  margin: 200px auto;
+}
+.grid-parent > div {
+  border: 1px solid black;
+  height: 70px;
+}
+
+.cell1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.cell2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.cell3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.cell4 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+
+.cell5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.cell6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.cell7 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.cell8 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.cell9 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.cell10 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.cell11 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.cell12 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.cell13 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.cell14 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.cell15 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.cell16 {
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.cell17 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
